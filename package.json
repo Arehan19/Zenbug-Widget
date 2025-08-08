@@ -1,0 +1,10 @@
+{
+  "name": "zenbug",
+  "scripts": {
+    "start": "node zenbug-backend/server.js",
+    "build": "cd zenbug-widget && npm install && npm run build"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
